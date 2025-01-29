@@ -21,8 +21,8 @@ Workout Tracker is a Python-based fitness logging tool that automates workout tr
 
 ### 1️⃣ Clone the repository  
 
-git clone https://github.com/Vikkram-V/workout-tracker.git  
-cd workout-tracker  
+    git clone https://github.com/Vikkram-V/workout-tracker.git  
+    cd workout-tracker  
 
 ### 2️⃣ Set up API keys  
 Create a **.env** file and add your API keys:  
@@ -38,7 +38,7 @@ USER_AGE=your_age
 
 ### 3️⃣ Run the script  
 
-python main.py    
+    python main.py    
 
 ## 📌 Example Input & Output
 
@@ -54,8 +54,4 @@ python main.py
 ## 📌 Future Enhancements  
 🔹 **Add mobile app integration** for easy input  
 🔹 **Visual analytics dashboard** for progress tracking  
-🔹 **Voice command support** for hands-free workout logging  
-
----
-
-This **README** is formatted for **clarity, engagement, and professionalism**, making it ideal for **GitHub publishing**. 🚀
+🔹 **Voice command support** for hands-free workout logging 
