@@ -27,14 +27,15 @@ Workout Tracker is a Python-based fitness logging tool that automates workout tr
 ### 2️⃣ Set up API keys  
 Create a **.env** file and add your API keys:  
 
-NUTRITIONIX_API_KEY=your_nutritionix_api_key  
-SHEETY_API_KEY=your_sheety_api_key  
-SHEETY_ENDPOINT=your_google_sheet_endpoint  
-USER_NAME=your_nutritionix_username  
-USER_GENDER=your_gender  
-USER_WEIGHT_KG=your_weight  
-USER_HEIGHT_CM=your_height  
-USER_AGE=your_age  
+# Nutritionix API credentials
+NUTRITIONIX_API_ENDPOINT = nutritionix_api_endpoint
+NUTRITIONIX_APP_ID = your_nutritionix_app_id
+NUTRITIONIX_API_KEY = your_nutritionix_api_key
+
+# Sheety API credentials
+SHEETY_API_ENDPOINT = your_google_sheet_endpoint
+SHEETY_USERNAME = your_sheety_username
+SHEETY_PASSWORD = your_sheety_password 
 
 ### 3️⃣ Run the script  
 
